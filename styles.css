@@ -224,7 +224,7 @@ button {
 	padding-inline: 2.75rem;
 	padding-top: 1em;
 	padding-bottom: 2.5em;
-	box-shadow: 3px 3px 5px 1px #d1d1d1;
+	box-shadow: 1px 3px 5px 1px #d1d1d1;
 }
 
 #already-have-account-text {
@@ -258,7 +258,7 @@ button {
 		border-radius: 15px;
 	}
 	#form-div {
-		box-shadow: 0 3px 5px 0 #d1d1d1;
+		box-shadow: 0 3px 2px #d1d1d1, 0 0 3px #d1d1d1;
 	}
 }
 
@@ -293,6 +293,9 @@ button {
 		margin-left: 2.75rem;
 		font-size: 1.1rem;
 	}
+	#form-div {
+		box-shadow: 3px 3px 5px 1px #d1d1d1;
+	}
 }
 
 @media only screen and (min-width: 1250px) {
@@ -303,10 +306,32 @@ button {
 }
 
 @media only screen and (min-width: 2000px) {
+	h2 {
+		font-size: 2.75rem;
+	}
+	label {
+		font-size: 1.1rem;
+	}
+	input {
+		width: 380px;
+		height: 42px;
+	}
+	button {
+		width: 300px;
+		height: 75px;
+		border-radius: 15px;
+		font-size: 1.6rem;
+	}
 	#odin-logo + span {
 		font-size: min(4.2rem, max(7vh, 28px));
 	}
 	.form-description {
 		font-size: 2rem;
+	}
+	#form-div {
+		height: max-content;
+	}
+	#already-have-account-text {
+		font-size: 1.4rem;
 	}
 }
