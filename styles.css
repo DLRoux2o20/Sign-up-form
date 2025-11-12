@@ -89,8 +89,30 @@ label {
 input {
 	height: 30px;
 	width: 250px;
+	padding-left: 8px;
 	border: 1px solid #d6d6d6;
 	border-radius: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+	font-family: "Fredoka", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+	font-size: 0.95rem;
+}
+
+input:invalid {
+	border-color: #d40f15;
+}
+
+input:focus {
+	border-color: #1557c2;
+	outline: none;
+	box-shadow: 2px 2px 3px #c0c0c0;
 }
 
 .flex {
