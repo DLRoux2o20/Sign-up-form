@@ -1,1 +1,1 @@
-# Sign-up-form
+This project was made as part of my Odin Foundation course. In this project I learned how to reset form element styles and customise them my own way. I practised working with input and button elements and making a webpage responsive. None of the information entered into the form will be sent anywhere. This website is purely HTML and CSS.
