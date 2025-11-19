@@ -65,7 +65,7 @@ body {
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	scrollbar-gutter: stable;
+	overflow-x: hidden;
 }
 
 h2 {
